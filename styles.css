@@ -1,52 +1,44 @@
-/* your code here */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .footer {
-    background-color: #000;
-    color: #fff;
+    background-color: black;
+    color: white;
 }
 
 .footer-top {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 40px;
 }
 
-.footer-brand h2 {
-    margin-bottom: 15px;
-}
-
-.media-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    background-color: #333;
-    color: #fff;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-radius: 50%;
-    text-decoration: none;
-}
-
-.footer-section h3 {
-    border-bottom: 2px solid #fff;
+.section h3 {
+    border-bottom: 2px solid white;
     display: inline-block;
     margin-bottom: 10px;
 }
 
-.footer-section ul {
-    list-style: none;
-    padding: 0;
+.section p {
+    color: #ccc;
+    margin: 6px 0;
 }
 
-.footer-section ul li {
-    margin: 8px 0;
-    color: #ccc;
+.icons {
+    margin-top: 15px;
+}
+
+.media-icons {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 8px;
 }
 
 .footer-bottom {
