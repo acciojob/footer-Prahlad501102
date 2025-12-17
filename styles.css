@@ -1,1 +1,58 @@
 /* your code here */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer-brand h2 {
+    margin-bottom: 15px;
+}
+
+.media-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+    color: #ccc;
+}
+
+.footer-bottom {
+    background-color: #2f3640;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-size: 14px;
+}
